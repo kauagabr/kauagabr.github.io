@@ -5,17 +5,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #e8d8cb;
     color: #333;
     line-height: 1.6;
+    border: 2px solid white;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #333;
+    background-color: #da9255;
     color: white;
     text-align: center;
     padding: 2rem 0;
+    border-bottom: 2px solid white;
+
+}
+
+#sobree {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -47,9 +59,26 @@ section p {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 /* Habilidades */
+#skills {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    margin-top: 0;
+}
+
 #skills ul {
     list-style: none;
     padding-left: 0;
@@ -70,7 +99,10 @@ section p {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.project h3 {
+
+
+.project h3,
+.project h2 {
     margin-top: 0;
 }
 
@@ -84,10 +116,11 @@ section p {
 
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: #da9255;
     color: white;
     text-align: center;
     padding: 2rem 0;
+    border-top: 2px solid white;
 }
 
 footer a {
